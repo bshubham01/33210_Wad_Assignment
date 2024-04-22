@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.textname{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.stick{
+    display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    flex-direction: column;
+    width: 100%;
+}
+
+.name{
+    display: flex;
+    background-color: #B1E1F8;
+    height: 15vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    justify-content: space-evenly;
+    gap: 2px;
+}
+
+.wr{
+    display: flex;
+    overflow-x: hidden;
+    height: 100%;
+    flex-direction: column;
+}
+
+#sppulogo{
+    display: flex;
+    height: auto;
+    width:20%;
+    object-fit: cover;
+}
+
+
+#collegelogo{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.textname{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#collegelogo{
+    width :20%;
+}
+
+#ll,
+#lm {
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper{
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+
+.card{
+    position: absolute;
+    z-index: 1;
+    border: 1px black solid;
+    margin :00px 1px 1px 1px;
+    padding: 1rem 1rem 1rem;
+    left: 10vw;
+    top: 0;
+    align-items: flex-start;
+
+}
+
+#bg{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    object-fit: fill;
+}
+
+.avatar {
+    width: 100%;
+    border-radius: 50%;
+  }
+
+
+
+
+
+.foot1{
+    height: 100%;
+}
+
+
+
+

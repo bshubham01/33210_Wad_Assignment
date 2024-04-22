@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="card" style="width: 18rem;">
+            <img id="img" src="av.jpg" alt="Avatar" class="avatar">
+            <br>
+            <label for="uname"><b>Username</b></label>
+            <br>
+            <input type="text" placeholder="Enter Username" id="username" required>
+            <br>
+            <label for="psw"><b>Password</b></label>
+            <br>
+            <input type="password" placeholder="Enter Password" id="password" required>
+            <br>
+            <div>
+            <button type="button" onclick="authenticateUser()">Login</button>
+            <button type="button" onclick="redirectToRegistration()">Register</button>
+          </div>
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+        </div>
+    </div>
+</div>
+    <p>If you want to view the list of users, go to the <a href="show-users.html">Users Page</a>.</p>
+    <script src="k.js"> </script>
+    <script src="authentication.js"></script>
+</body>
+
+</html>
